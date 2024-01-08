@@ -1,0 +1,15 @@
+.media-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+.image-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.teamdisplay {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.teamdisplay .team-member {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 90px));
+    gap: 20px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid blue;
+}
